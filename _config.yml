@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Unreal Verse Guru
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 twitter_username: UnrealVerseGuru
 github_username: UnrealVerseGuru
-minimal_mistakes_skin: sunrise
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -29,7 +29,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -58,9 +58,12 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Unreal Verse Guru"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "#UEFN - Unreal Engine for Fortnite \n
+Verse - Unreal Verse scripting language
+Creative 2.0 tutorials and news
+Unreal Engine content creation, C++ and Blueprints scripting in UE"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
