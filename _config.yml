@@ -60,9 +60,12 @@ plugins:
 author:
   name   : "Unreal Verse Guru"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "**#UEFN** - Unreal Engine for Fortnite \n
-**Verse** - Unreal Verse scripting language \n
-**Creative 2.0** tutorials and news \n
+  bio    : "**#UEFN** - Unreal Engine for Fortnite
+  
+**Verse** - Unreal Verse scripting language
+
+**Creative 2.0** tutorials and news
+
 **Unreal Engine** content creation, **C++ and Blueprints** scripting in UE"
   links:
     - label: "Twitter"
