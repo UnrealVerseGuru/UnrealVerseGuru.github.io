@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Unreal Verse Guru
+title: UEFN, Verse programming language, Fortnite Creative 2.0
+repository: UnrealVerseGuru/UnrealVerseGuru.github.io
 email: unrealverseguru@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -32,7 +33,7 @@ permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+layout: home
 include:
   - _pages
 
@@ -59,14 +60,15 @@ plugins:
 
 author:
   name   : "Unreal Verse Guru"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "<p>**#UEFN** - Unreal Engine for Fortnite<br>
+  avatar : "/assets/images/UVG_Logo_01_noBG.png"
+  bio    : "**UEFN** - Unreal Editor for Fortnite<br>
   
-**Verse** - Unreal Verse scripting language<br>
+**Verse** - programming language<br>
 
-**Creative 2.0** tutorials and news<br>
+**Creative 2.0** tutorials, news<br>
 
-**Unreal Engine** content creation, **C++ and Blueprints** scripting in UE</p>"
+**Unreal Engine** content creation, **C++ and Blueprints** scripting in UE"
+
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -101,8 +103,9 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: grid
+      author_profile: false
+      entries_layout: grid
 
 lunr:
   search_within_pages: true
@@ -113,3 +116,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+  picture:
+  ignore_missing_images: true
